@@ -1,0 +1,139 @@
+PT-BR
+1. FrameLayout
+
+Descrição: Este é o layout mais simples. Ele posiciona os elementos "um em cima do outro", como uma pilha.
+
+Uso comum:
+
+Quando você deseja exibir um único elemento principal.
+
+Quando você precisa sobrepor elementos (por exemplo, imagem de fundo + botão por cima).
+
+Vantagem: Simples e rápido.
+
+Desvantagem: Difícil organizar vários componentes sem sobreposição.
+
+2. LinearLayout
+
+Descrição: Organiza elementos em uma linha, vertical ou horizontalmente.
+
+Uso comum:
+
+Listas pequenas (antes do RecyclerView).
+
+Formulários simples (nome, e-mail, senha).
+
+Vantagem: Fácil de organizar em colunas ou linhas.
+
+Desvantagem: Pode ser lento se usado para layouts muito complexos.
+
+3. RelativeLayout
+
+Descrição: Permite posicionar elementos em relação a outros (ex: abaixo de X, alinhado à direita de Y).
+
+Uso comum:
+
+Layouts moderadamente complexos.
+
+Quando você precisa alinhar componentes dinamicamente.
+
+Vantagem: Flexível.
+
+Desvantagem: Pode se tornar difícil de manter em projetos grandes.
+
+4. ConstraintLayout
+
+Descrição: O layout mais moderno e poderoso. Permite posicionar elementos com base em restrições (constraints).
+
+Uso comum:
+
+Interfaces complexas com muitos elementos.
+
+Alternativa ao uso de aninhamento de layouts.
+
+Vantagem: Reduz hierarquia (melhora performance).
+
+Desvantagem: Mais difícil no inicio (mas o Android Studio ajuda muito).
+
+5. RecyclerView
+
+Descrição: Não é exatamente um layout, mas um widget de lista/grade altamente otimizado.
+
+Uso comum:
+
+Exibir listas grandes (contatos, mensagens, feeds).
+
+Vantagem: Muito mais eficiente que ListView.
+
+Desvantagem: Exige código extra (Adapter, ViewHolder).
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ENGLISH
+1. FrameLayout
+
+Description: This is the simplest layout. It places elements "one on top of the other," like a stack.
+
+Common use:
+
+When you want to display a single main element.
+
+When you need to overlap elements (e.g., background image + button on top).
+
+Advantage: Simple and fast.
+
+Disadvantage: Difficult to arrange multiple components without overlapping.
+
+2. LinearLayout
+
+Description: Arrange elements in a row, vertically or horizontally.
+
+Common use:
+
+Small lists (before RecyclerView).
+
+Simple forms (name, email, password).
+
+Advantage: Easy to organize in columns or rows.
+
+Disadvantage: Can be slow if used for very complex layouts.
+
+3. RelativeLayout
+
+Description: Allows you to position elements relative to others (e.g., below X, aligned to the right of Y).
+
+Common use:
+
+Moderately complex layouts.
+
+When you need to dynamically align components.
+
+Advantage: Flexible.
+
+Disadvantage: Can become difficult to maintain in large projects.
+
+4. ConstraintLayout
+
+Description: The most modern and powerful layout. Allows you to position elements based on constraints.
+
+Common use:
+
+Complex interfaces with many elements.
+
+Alternative to nesting layouts.
+
+Advantage: Reduces hierarchy (improves performance).
+
+Disadvantage: More difficult at first (but Android Studio helps a lot).
+
+5. RecyclerView
+
+Description: Not exactly a layout, but a highly optimized list/grid widget.
+
+Common use:
+
+Display large lists (contacts, messages, feeds).
+
+Advantage: Much more efficient than ListView.
+
+Disadvantage: Requires additional code (Adapter, ViewHolder).
